@@ -1,4 +1,4 @@
-# Task 1 of contest (modify minDiffusion)
+# Task 1 of contest (modify minDiffusion) by Nikolaev O.V.
 
 <!-- #region -->
 <p align="center">
