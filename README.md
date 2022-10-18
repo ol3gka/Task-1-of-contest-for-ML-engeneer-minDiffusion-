@@ -1,4 +1,4 @@
-# minDiffusion
+# Task 1 of contest (modify minDiffusion)
 
 <!-- #region -->
 <p align="center">
