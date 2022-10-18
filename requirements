@@ -2,6 +2,7 @@ absl-py>=0.7.1
 numpy==1.19.2
 torch>=
 tqdm>=
+torchvision>=0.13.1
 
 plyfile>=0.7.1
 scipy>=1.7.1
