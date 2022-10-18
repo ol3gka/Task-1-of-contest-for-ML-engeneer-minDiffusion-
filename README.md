@@ -14,10 +14,11 @@ Simply:
 ```
 $ python superminddpm.py
 ```
+# ADDED:
 # Getting started
-Code is tested with python 3.9.12 and pythorch 1.12.1
+1) Code is tested with python 3.9.12 and pythorch 1.12.1
 Please install the necessary dependencies, pip is a recommended way to do this.
-
+2) device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 
 
