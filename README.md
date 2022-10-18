@@ -14,6 +14,12 @@ Simply:
 ```
 $ python superminddpm.py
 ```
+# Getting started
+Code is tested with python 3.9.12 and pythorch 1.12.1
+Please install the necessary dependencies, pip is a recommended way to do this.
+
+
+
 
 Above script is self-contained. (Of course, you need to have pytorch and torchvision installed. Latest version should suffice. We do not use any cutting edge features.)
 

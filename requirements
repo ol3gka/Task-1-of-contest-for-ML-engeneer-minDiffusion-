@@ -1,0 +1,12 @@
+absl-py>=0.7.1
+numpy==1.19.2
+torch>=
+tqdm>=
+
+plyfile>=0.7.1
+scipy>=1.7.1
+scikit-image>==0.15.0
+trimesh>=3.2.12
+six==1.15.0
+tensorflow>=1.14.0
+typing-extensions==3.7.4
