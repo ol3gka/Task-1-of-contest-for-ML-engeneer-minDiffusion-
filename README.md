@@ -20,7 +20,7 @@ $ python superminddpm.py
 2) NVIDIA RTX 2060 
 Please install the necessary dependencies, pip is a recommended way to do this.
 3) device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-
+4) cuda:0 вместо cuda:1
 
 
 Above script is self-contained. (Of course, you need to have pytorch and torchvision installed. Latest version should suffice. We do not use any cutting edge features.)
