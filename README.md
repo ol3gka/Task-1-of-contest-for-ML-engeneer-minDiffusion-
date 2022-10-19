@@ -39,7 +39,7 @@ It presents refactored initial repo with adaptation for map generation
 Requiremnet can be found at:
 
 ```
-$ requirements.txt
+requirements.txt
 ```
 
 Map dataset was taken from Awesome Satellite Imagery Datasets (https://github.com/chrieke/awesome-satellite-imagery-datasets).
