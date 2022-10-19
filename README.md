@@ -13,7 +13,16 @@ Scoring is shown below:
 - Dataset preparation quality will be reviewed (5 points);
 - Modifications of the existing code should be shown.
 
+# Introduction
+
 Diffusion models became very promising nowadays, as being recently introduced it is already shown perfect results. 
+The core concept behind these models is deceptively simple:
+
+- Take a starting image;
+- Add some noise, iteratively degrading the image until almost nothing but noise remains;
+- Train a model to 'undo' these noise steps;
+- To generate, start from pure noise and repeatedly apply the model to 'denoise' our way back to a plausible image.
+
 Being alternative to GANs, today's Diffusion models show: 
 
 - [x] **High-quality sampling**
@@ -23,7 +32,7 @@ Being alternative to GANs, today's Diffusion models show:
 - [ ] **Slow and computationally expensive sampling**
 
 # Getting started
-Current DL code was tested localy with NVIDIA RTX 2060 (cuda 11.6) and python 3.9.12. 
+Current DL code was tested localy with NVIDIA RTX 2060 mobile (cuda 11.6) and python 3.9.12. 
 
 It presents refactored initial repo with adaptation for map generation
 
@@ -33,7 +42,8 @@ Requiremnet can be found at:
 $ requirements.txt
 ```
 
-Map dataset was taken from Awesome Satellite Imagery Datasets (https://github.com/chrieke/awesome-satellite-imagery-datasets), and it represents 
+Map dataset was taken from Awesome Satellite Imagery Datasets (https://github.com/chrieke/awesome-satellite-imagery-datasets).
+This dataset is a composition of scenes taken by SPOT sensor in 2005 over four counties in Brazil. dataset includes scenes with different plant ages and/or with spectral distortions caused by shadows. There is a total of four orthoimages, one for each county, and also four mask images with pixel level annotation of coffee/non-coffee class.
 
 # ADDED:
 
