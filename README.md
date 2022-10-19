@@ -2,7 +2,7 @@
 
 <!-- #region -->
 <p align="center">
-<img  src="contents/_ddpm_sample_19.png">
+<img  src="contents/image_coffee-1024x407.jpg">
 </p>
 
 The task was performed within the contest for the position of ML-engenner at Skoltech Applied AI Center.
@@ -43,7 +43,7 @@ $ requirements.txt
 ```
 
 Map dataset was taken from Awesome Satellite Imagery Datasets (https://github.com/chrieke/awesome-satellite-imagery-datasets).
-This dataset is a composition of scenes taken by SPOT sensor in 2005 over four counties in Brazil. dataset includes scenes with different plant ages and/or with spectral distortions caused by shadows. There is a total of four orthoimages, one for each county, and also four mask images with pixel level annotation of coffee/non-coffee class.
+This dataset is a composition of scenes taken by SPOT Satellite sensor in 2005 in Brazil. Dataset includes pictures of coffee/non-coffee fieleds (2 labels).
 
 # ADDED:
 
@@ -74,8 +74,9 @@ Here is another example, trained on 100 epochs (about 1.5 hours)
 - some typos as cuda:1 exchenged to cuda:0, 
 - some additional helpfull annotations were added to the code
 - compositon of the classes and functions refactored, the redundant ones have been removed
-- loss functions were testd, NAdam
+- loss functions were testd, NAdam, SGD goes to infinity
 - map pictures for dataset loader framework was added
+- save model and pictures only on appropriate epochs
 
 WHAT CAN BE CHANGED ELSE
 
