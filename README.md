@@ -45,6 +45,12 @@ $ requirements.txt
 Map dataset was taken from Awesome Satellite Imagery Datasets (https://github.com/chrieke/awesome-satellite-imagery-datasets).
 This dataset is a composition of scenes taken by SPOT Satellite sensor in 2005 in Brazil. Dataset includes pictures of coffee/non-coffee fieleds (2 labels).
 
+Can be downloaded and unpacked by:
+```
+!wget http://www.patreo.dcc.ufmg.br/wp-content/uploads/2017/11/brazilian_coffee_dataset.zip
+!unzip -qq brazilian_coffee_dataset.zip
+```
+
 # ADDED:
 
 
