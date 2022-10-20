@@ -83,6 +83,7 @@ Here is another example, trained on 100 epochs (about 1.5 hours)
 - loss functions were testd, NAdam, SGD goes to infinity
 - map pictures for dataset loader framework was added
 - save model and pictures only on appropriate epochs
+- trained model uploaded
 
 WHAT CAN BE CHANGED ELSE
 
