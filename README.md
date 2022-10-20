@@ -52,9 +52,8 @@ Can be downloaded and unpacked by:
 !unzip -qq brazilian_coffee_dataset.zip
 ```
 
-```
 Map_generator.py - main executable file which should be execuited in same environment with tools.py
-``` 
+
 # Discussion of results:
 
 Initial autor took 2 hours of training on dectop 3090 GPU for Cifair10 dataset wich is 32x32. 
