@@ -56,15 +56,37 @@ Can be downloaded and unpacked by:
 
 Initial autor took 2 hours of training on dectop 3090 GPU for Cifair10 dataset wich is 32x32. 
 Current aoutor run train for two hours on mobile 2060 GPU for 64x64 images, so results might be not so stunning, but nevetheless.
-Have a look on the selected by author "good" examples of the map generation (on the left side - generated maps, on the right maps from reals coffee plants fields dataset)
+
+Have a look on the selected by author "good" examples of the map generation (couples of the pictures)
+
+              (on the left side - generated map                      on the right - reals coffee plants field from dataset)
 
 
 
 <p align="center">
-<img  src="contents/_ddpm_sample_cifar100.png">
+<img  src="contents/17.png">
 </p>
-
-
+<p align="center">
+<img  src="contents/20.png">
+</p>
+<p align="center">
+<img  src="contents/70.png">
+</p>
+<p align="center">
+<img  src="contents/86.png">
+</p>
+<p align="center">
+<img  src="contents/176.png">
+</p>
+<p align="center">
+<img  src="contents/186.png">
+</p>
+<p align="center">
+<img  src="contents/274.png">
+</p>
+<p align="center">
+<img  src="contents/280.png">
+</p>
 
 # Updates of the existing repo
 
