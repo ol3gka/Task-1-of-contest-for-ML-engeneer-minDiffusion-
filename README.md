@@ -43,7 +43,8 @@ requirements.txt
 ```
 
 Map dataset was taken from Awesome Satellite Imagery Datasets (https://github.com/chrieke/awesome-satellite-imagery-datasets).
-This dataset is a composition of scenes taken by SPOT Satellite sensor in 2005 in Brazil. Dataset includes pictures of coffee/non-coffee fieleds (2 labels).
+This dataset is a composition of scenes taken by SPOT Satellite sensor in 2005 in Brazil. Dataset includes pictures of coffee/non-coffee fields (2 labels).
+As author loves coffee :)
 
 Can be downloaded and unpacked by:
 ```
@@ -51,22 +52,13 @@ Can be downloaded and unpacked by:
 !unzip -qq brazilian_coffee_dataset.zip
 ```
 
-# ADDED:
+# Discussion of results:
+
+Initial autor took 2 hours of training on dectop 3090 GPU for Cifair10 dataset wich is 32x32. 
+Current aoutor run train for two hours on mobile 2060 GPU for 64x64 images, so results might be not so stunning, but nevetheless.
+Have a look on the selected by author "good" examples of the map generation (on the left side - generated maps, on the right maps from reals coffee plants fields dataset)
 
 
-
-
-
-
-
-<!-- #region -->
-<p align="center">
-<img  src="contents/_ddpm_sample_cifar43.png">
-</p>
-
-Above result took about 2 hours of training on single 3090 GPU. Top 8 images are generated, bottom 8 are ground truth.
-
-Here is another example, trained on 100 epochs (about 1.5 hours)
 
 <p align="center">
 <img  src="contents/_ddpm_sample_cifar100.png">
