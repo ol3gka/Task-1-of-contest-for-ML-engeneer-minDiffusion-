@@ -51,6 +51,7 @@ Can be downloaded and unpacked by:
 !wget http://www.patreo.dcc.ufmg.br/wp-content/uploads/2017/11/brazilian_coffee_dataset.zip
 !unzip -qq brazilian_coffee_dataset.zip
 ```
+Map_generator.py - main executable file
 
 # Discussion of results:
 
