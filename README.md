@@ -68,11 +68,11 @@ Have a look on the selected by author "good" examples of the map generation (on 
 
 # Updates of the existing repo
 
-- requirements.txt was added, as well as short intro for position of diffusion models in today's DL
+- requirements.txt was added, as well as short intro for position of diffusion models in today's DL, and Tools.py file with imports
 - some typos as cuda:1 exchenged to cuda:0, 
 - some additional helpfull annotations were added to the code
 - compositon of the classes and functions refactored, the redundant ones have been removed
-- loss functions were testd, NAdam, SGD goes to infinity
+- loss functions were testd, NAdam; SGD goes to infinity
 - map pictures for dataset loader framework was added
 - save model and pictures only on appropriate epochs
 - trained model uploaded
