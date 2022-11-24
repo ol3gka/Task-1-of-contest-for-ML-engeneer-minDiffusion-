@@ -6,7 +6,7 @@
 </p>
 
 The task was performed within the contest for the position of ML-engenner at Skoltech Applied AI Center.
-Goal of the project was to adapt existing diffusion DL model (https://github.com/cloneofsimo/minDiffusion) for map generation purposes. 
+Goal of the project was to adapt diffusion DL model  for map generation purposes. 
 
 Scoring is shown below:
 - Model should generate pictures similar to te real Earth maps with dimmention of (64x64) (10 point);
